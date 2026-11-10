@@ -16,12 +16,12 @@ Necesitas internet durante la instalación (unos 3 GB de descargas; unos 5,5 GB 
 ### Mac
 1. Descomprime el zip.
 2. Haz doble clic en `Install Depth Anything.command`.
-   Si macOS dice que no se puede abrir: *Ajustes del Sistema → Privacidad y seguridad → Abrir igualmente*.
+   Si macOS dice que no se puede abrir (por ser de un desarrollador no identificado): abre **Ajustes del Sistema → Privacidad y seguridad**, baja hasta la sección **Seguridad**, pulsa **Abrir igualmente** junto al aviso del instalador y escribe tu contraseña. Después vuelve a abrir el instalador.
 3. Espera a ver `All done!` (unos minutos la primera vez).
 
 ### Windows
 1. Descomprime el zip (haz clic derecho → *Extraer todo*; no ejecutes desde dentro del zip).
-2. Haz doble clic en `Install Depth Anything.bat`.
+2. Haz clic derecho en `Install Depth Anything.bat` → **Ejecutar como administrador** (así evitas problemas de permisos).
    Si sale *"Windows protegió su PC"*: **Más información → Ejecutar de todas formas**.
 3. Si pide permiso para instalar *Microsoft Visual C++*, acepta.
 4. Espera a ver `All done!` (unos minutos la primera vez).
