@@ -6,8 +6,8 @@ Una ventana con tres herramientas: **mapas de profundidad** (Depth Anything V2),
 
 | Tu ordenador | Descarga |
 |---|---|
-| **Mac** con Apple Silicon (M1 o más nuevo) | [`DepthAnything-Mac.zip`](https://github.com/martamakes/updepth/releases/latest/download/DepthAnything-Mac.zip) |
-| **Windows** 10 u 11 (64 bits) | [`DepthAnything-Windows.zip`](https://github.com/martamakes/updepth/releases/latest/download/DepthAnything-Windows.zip) |
+| **Mac** con Apple Silicon (M1 o más nuevo) | [`Updepth-Mac.zip`](https://github.com/martamakes/updepth/releases/latest/download/Updepth-Mac.zip) |
+| **Windows** 10 u 11 (64 bits) | [`Updepth-Windows.zip`](https://github.com/martamakes/updepth/releases/latest/download/Updepth-Windows.zip) |
 
 Necesitas internet durante la instalación (unos 3 GB de descargas; unos 5,5 GB si tienes tarjeta NVIDIA). Incluye el modelo de voz para subtítulos (~480 MB).
 
