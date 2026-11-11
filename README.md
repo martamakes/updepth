@@ -1,6 +1,6 @@
-# Updepth: profundidad, upscale, subtítulos y promos en tu ordenador
+# Updepth: profundidad, upscale, subtítulos, promos y cortes en tu ordenador
 
-Una ventana con cuatro herramientas: **mapas de profundidad** (Depth Anything V2), **upscale** de imágenes y vídeos, **subtítulos** con transcripción de voz (.srt, .txt y vídeo con subtítulos estilo TikTok) y **promo** (vídeos para anuncios con portada, fondo, audio y texto). Todo se ejecuta en tu propio ordenador, sin subir nada a internet.
+Una ventana con cinco herramientas: **mapas de profundidad** (Depth Anything V2), **upscale** de imágenes y vídeos, **subtítulos** con transcripción de voz (.srt, .txt y vídeo con subtítulos estilo TikTok) **promo** (vídeos para anuncios con portada, fondo, audio y texto) y **cortar** (clips a mano con previsualización). Todo se ejecuta en tu propio ordenador, sin subir nada a internet.
 
 ## Descarga
 
@@ -28,7 +28,7 @@ Necesitas internet durante la instalación (unos 3 GB de descargas; unos 5,5 GB 
 
 ## Usar
 
-Abre **Updepth** (icono naranja con flecha) desde el Escritorio: se abre una ventana con cuatro pestañas. Arrastra archivos a la lista (o usa *Añadir archivos / carpeta*) y pulsa el botón. El resultado se guarda junto al original, y al terminar el botón **Abrir carpeta** (abajo a la derecha) te enseña dónde ha quedado.
+Abre **Updepth** (icono naranja con flecha) desde el Escritorio: se abre una ventana con cinco pestañas. Arrastra archivos a la lista (o usa *Añadir archivos / carpeta*) y pulsa el botón. El resultado se guarda junto al original, y al terminar el botón **Abrir carpeta** (abajo a la derecha) te enseña dónde ha quedado.
 
 **Mapa de profundidad** (imágenes y vídeos):
 
@@ -68,6 +68,13 @@ Opciones:
 - **Duración:** la del audio.
 - **Hook (opcional):** texto de varias filas, con emojis, arriba y centrado, para que no se solape con los subtítulos de abajo. Las banderas y emojis combinados pueden no salir.
 - La app recuerda el último audio, fondo, formato y hook.
+
+**Cortar** (vídeos largos): corta a mano un vídeo en clips. Elige el vídeo y pulsa *Abrir editor de cortes*: se abre una página en tu navegador (solo en tu ordenador) con el reproductor.
+
+- **Marcar:** `I` inicio, `O` fin, `Enter` añade el clip; `←`/`→` avanzan un fotograma (con Mayús, 1 s); espacio reproduce.
+- **Exportar:** los clips se guardan junto al original (`video_clip1.mp4`, `video_clip2.mp4`…) y el progreso sale en la ventana de Updepth.
+- **Preciso:** se recodifica (H.264 + AAC), así que el corte cae en el fotograma exacto. Si el navegador no lee el formato, se usa una copia de baja calidad solo para previsualizar; los cortes salen del original.
+- Después puedes usar los clips en las otras pestañas.
 
 Funciona en CPU (sin GPU).
 
