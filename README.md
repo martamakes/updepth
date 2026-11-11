@@ -1,6 +1,6 @@
-# Updepth: profundidad, upscale y subtítulos en tu ordenador
+# Updepth: profundidad, upscale, subtítulos y promos en tu ordenador
 
-Una ventana con tres herramientas: **mapas de profundidad** (Depth Anything V2), **upscale** de imágenes y vídeos, y **subtítulos** con transcripción de voz (.srt, .txt y vídeo con subtítulos estilo TikTok). Todo se ejecuta en tu propio ordenador, sin subir nada a internet.
+Una ventana con cuatro herramientas: **mapas de profundidad** (Depth Anything V2), **upscale** de imágenes y vídeos, **subtítulos** con transcripción de voz (.srt, .txt y vídeo con subtítulos estilo TikTok) y **promo** (vídeos para anuncios con portada, fondo, audio y texto). Todo se ejecuta en tu propio ordenador, sin subir nada a internet.
 
 ## Descarga
 
@@ -28,7 +28,7 @@ Necesitas internet durante la instalación (unos 3 GB de descargas; unos 5,5 GB 
 
 ## Usar
 
-Abre **Updepth** (icono naranja con flecha) desde el Escritorio: se abre una ventana con tres pestañas. Arrastra archivos a la lista (o usa *Añadir archivos / carpeta*) y pulsa el botón. El resultado se guarda junto al original, y al terminar el botón **Abrir carpeta** (abajo a la derecha) te enseña dónde ha quedado.
+Abre **Updepth** (icono naranja con flecha) desde el Escritorio: se abre una ventana con cuatro pestañas. Arrastra archivos a la lista (o usa *Añadir archivos / carpeta*) y pulsa el botón. El resultado se guarda junto al original, y al terminar el botón **Abrir carpeta** (abajo a la derecha) te enseña dónde ha quedado.
 
 **Mapa de profundidad** (imágenes y vídeos):
 
@@ -57,6 +57,17 @@ Opciones:
 - **Modelo:** base (~145 MB), small (~480 MB, por defecto, se descarga al instalar) o turbo (~1,6 GB, se descarga al primer uso).
 - **Idioma:** automático o a elegir.
 - **Es una canción:** usa el modelo turbo, desactiva el filtro de voz y evita repeticiones en los estribillos. Con música Whisper falla más: la letra puede salir incompleta y los tiempos por palabra pueden desfasarse.
+
+**Promo** (vídeos para anuncios, por ejemplo Meta Ads): pon la portada centrada sobre una imagen o vídeo de fondo, con el audio que elijas.
+
+| Entrada | Salida |
+|---|---|
+| `portada.png` + audio (mp3/wav…) + fondo | `portada_promo_9x16.mp4` (también 4:5 y 1:1) |
+
+- **Fondo:** una imagen o un vídeo (si es vídeo, se repite hasta cubrir el audio). Rellena todo el cuadro.
+- **Duración:** la del audio.
+- **Hook (opcional):** texto de varias filas, con emojis, arriba y centrado, para que no se solape con los subtítulos de abajo. Las banderas y emojis combinados pueden no salir.
+- La app recuerda el último audio, fondo, formato y hook.
 
 Funciona en CPU (sin GPU).
 
